@@ -5,13 +5,13 @@
 
 `aCC24Treg_ts_20p2p7_pkg` - folder with preprocessed fMRI data (3 runs Raven (RPM), 1 run rest)
 
-`onsets` - Folder with task onsets of each participant
+`onsets` - folder with task onsets of each participant
 	
 `node_network_assignment_200_17.mat` - assignment of the 200 nodes to 17 networks
 
 `table_descriptives.mat` - age, sex of participants
 
-`table_accuracy.mat` - rpm performance of participants
+`table_accuracy.mat` - RPM performance of participants
 
 ### Main scripts	
 
@@ -32,7 +32,7 @@
 
 ### External functions	
 
-`parcplot` - contains source files and data for [parc plotter](https://github.com/faskowit/parc_plotter)
+`parcplot` - contains source files and data for [parc_plotter](https://github.com/faskowit/parc_plotter)
 		
 `threshold_proportional` - from [Brain Connectivity Toolbox, (BCT)](https://sites.google.com/site/bctnet/home) thresholds fc
 
