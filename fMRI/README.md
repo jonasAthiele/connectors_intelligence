@@ -42,6 +42,6 @@
 
 `apply_CanonicalHRF.mat` - concolves onsets with HRF to get timings of expected response
 
-`fdr_bh`- Function for FDR correction
+`fdr_bh`- function for FDR correction
 
-`slanCM.mat` & `slanCM_Data.mat` - external function & data for creating colormaps (https://de.mathworks.com/matlabcentral/fileexchange/120088-200-colormap)
+`slanCM.mat` & `slanCM_Data.mat` - function & data for creating colormaps (https://de.mathworks.com/matlabcentral/fileexchange/120088-200-colormap)
