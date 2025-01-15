@@ -32,7 +32,7 @@
 
 ### External functions	
 
-`parcplot` - contains source files and data for [parc_plotter](https://github.com/faskowit/parc_plotter)
+`parcplot` - get [parc_plotter](https://github.com/faskowit/parc_plotter) (needed for plotting)
 		
 `threshold_proportional` - from [Brain Connectivity Toolbox, (BCT)](https://sites.google.com/site/bctnet/home) thresholds fc
 
