@@ -30,8 +30,6 @@
 - outputs: "info_subjects" & "info_subjects_all" & "results_degree_uncorrected"
 		& "results_participation_uncorrected"
 
-`centrality_eeg_50.mat` - interim result: centrality measures
-
 
 ### External functions
 
