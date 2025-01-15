@@ -6,11 +6,12 @@
 
 `raven` - Raven (RPM) data (mostly preprocessed) can be obtained from [Ociepka et al. 2023](https://osf.io/htrsg/)
 
+`1_outcome.set` & `1_outcome_fdt` - arbitrary RPM eeg set from `raven` used as template for topoplots
+
 `descr_behav_data` - descriptive and behavioral data of subjects (age, sex, RPM sum scores)
 
 `channel_locations_64.ced` - electrode locations (coordinates)
 
-`1_outcome.set` & `1_outcome_fdt` - arbitrary RPM eeg set used as template for topoplots
 	
 
 ### Main scripts:
