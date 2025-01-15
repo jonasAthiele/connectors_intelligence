@@ -34,7 +34,7 @@
 
 `parcplot` - get [parc_plotter](https://github.com/faskowit/parc_plotter) (needed for plotting)
 		
-`threshold_proportional` - from [Brain Connectivity Toolbox, (BCT)](https://sites.google.com/site/bctnet/home) thresholds fc
+`threshold_proportional` - from [Brain Connectivity Toolbox, (BCT)](https://sites.google.com/site/bctnet/home), thresholds fc
 
 `participation_coef` - from the BCT, computes participation coefficient
 
