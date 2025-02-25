@@ -1,6 +1,6 @@
 ## EEG analysis
 
-### Data:
+### Data
 
 `rest` - rest raw data can be obtained from [Ociepka et al. 2022](https://osf.io/kv2sx/) (Rest_1.zip)
 
@@ -14,7 +14,7 @@
 
 	
 
-### Main scripts:
+### Main scripts
 
 `eeg_analysis.mat`
 
