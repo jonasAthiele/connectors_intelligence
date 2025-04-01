@@ -1,6 +1,6 @@
 # Connectors of Intelligence
 
-This repository contains scripts for the analyses used in the paper **Connectors of Intelligence: Exploring the Brain during Intelligence Testing with fMRI- and EEG-based Network Analyses** coauthored by Jonas A. Thiele, Joshua Faskowitz, Olaf Sporns, Adam Chuderski, Rex Jung, and Kirsten Hilger.
+This repository contains scripts for the analyses used in the paper **Decoding the Human Brain during Intelligence Testing** coauthored by Jonas A. Thiele, Joshua Faskowitz, Olaf Sporns, Adam Chuderski, Rex Jung, and Kirsten Hilger.
 
 ## Copyright
 Copyright (cc) 2025 by Jonas A. Thiele
