@@ -17,7 +17,7 @@
 
 `table_accuracy.mat` - RPM performance of participants
 
-`table_handedness.mat` - handedness of participants
+`table_handedness.csv` - handedness of participants
 
 ### Main scripts	
 
