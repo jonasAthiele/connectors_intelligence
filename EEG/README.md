@@ -28,7 +28,7 @@
 - make plots of results
 - outputs "info_subjects" & "info_subjects_all"
 
-`get_results_eeg.mat`
+`compute_partial_spearman.mat`
 - function for computing partial Spearman correlation
 
 `cluster_permutation_test_signed.mat` & `permute_corr_func.mat`
