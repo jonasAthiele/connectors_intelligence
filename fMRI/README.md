@@ -13,6 +13,8 @@
 
 `table_accuracy.mat` - RPM performance of participants
 
+`Schaefer200_Pfit_CoreRegions_Annotated.csv` - Schaefer nodes assigned to P-FIT-regions
+
 ### Main scripts	
 
 `get_fcs.mat`
@@ -32,7 +34,7 @@
 
 ### External functions	
 
-`parcplot` - get [parc_plotter](https://github.com/faskowit/parc_plotter) (needed for plotting)
+`parcplot` - [parc_plotter](https://github.com/faskowit/parc_plotter) (needed for plotting)
 		
 `threshold_proportional` - from [Brain Connectivity Toolbox, (BCT)](https://sites.google.com/site/bctnet/home), thresholds fc
 
@@ -41,7 +43,5 @@
 `fisherZTransform` - from the BCT, Fisher's z transformation
 
 `apply_CanonicalHRF.mat` - concolves onsets with HRF to get timings of expected response
-
-`fdr_bh`- function for FDR correction
 
 `slanCM.mat` & `slanCM_Data.mat` - function & data for creating colormaps (https://de.mathworks.com/matlabcentral/fileexchange/120088-200-colormap)
