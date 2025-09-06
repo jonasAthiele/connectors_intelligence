@@ -19,27 +19,21 @@
 `eeg_analysis.mat`
 
 - preprocessing EEG data
-- get FCs of rest and RPM trials for theta band
+- get MSE of rest and RPM trials for theta band
 - save measures in "brain_measures.mat" files for each subject 
-
 
 `get_results_eeg.mat`
 
-- compute centrality measures
-- get association between centrality measures and RPM sum scores
+- get association between MSE measures and RPM sum scores
 - make plots of results
-- outputs "info_subjects" & "info_subjects_all" & "results_degree_uncorrected"
-	& "results_participation_uncorrected"
+- outputs "info_subjects" & "info_subjects_all"
 
+`get_results_eeg.mat`
+- function for computing partial Spearman correlation
+
+`cluster_permutation_test_signed.mat`
+- function for cluster based permutation test
 
 ### External functions
-
-`threshold_proportional.mat` - function from the [Brain Conenctivity Toolbox (BCT)](https://sites.google.com/site/bctnet/home) to threshold FC
-
-`community_louvain.mat` & `consensus_und.mat` & `agreement.mat` - functions from the BCT to compute partitions
-
-`participation_coef.mat` - function of BCT for computing participation coefficient
-
-`fdr_bh` - function for FDR correction
 
 `slanCM.mat` & `slanCM_Data.mat` - function & data for creating colormaps (https://de.mathworks.com/matlabcentral/fileexchange/120088-200-colormap)
