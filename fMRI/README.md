@@ -15,6 +15,10 @@
 
 `Schaefer200_Pfit_CoreRegions_Annotated.csv` - Schaefer nodes assigned to P-FIT-regions
 
+`table_accuracy.mat` - RPM performance of participants
+
+`table_handedness.mat` - handedness of participants
+
 ### Main scripts	
 
 `get_fcs.mat`
