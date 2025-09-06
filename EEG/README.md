@@ -31,9 +31,11 @@
 `get_results_eeg.mat`
 - function for computing partial Spearman correlation
 
-`cluster_permutation_test_signed.mat`
-- function for cluster based permutation test
+`cluster_permutation_test_signed.mat` & `permute_corr_func.mat`
+- functions for cluster based permutation test
 
 ### External functions
+
+`multiscaleSampleEntropy.mat` - function for computing MSE (https://www.mathworks.com/matlabcentral/fileexchange/62706-multiscale-sample-entropy)
 
 `slanCM.mat` & `slanCM_Data.mat` - function & data for creating colormaps (https://de.mathworks.com/matlabcentral/fileexchange/120088-200-colormap)
