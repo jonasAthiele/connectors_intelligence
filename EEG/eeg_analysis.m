@@ -5,7 +5,7 @@
 BAD_SUBJECTS = [6,24,86,210]; % excluded
 % 6, 24 eeg not completed
 % 210 - bad signal in Raven (not in the data set)
-% 86 - Bad signal in rest file
+% 86 - bad signal in rest file
 
 % file paths with resting state and raven (rpm) eeg data
 path_data = pwd;
@@ -235,5 +235,6 @@ function brain_measures = get_brain_measures(file_path)
     
     brain_measures.mse = mse;
     brain_measures.n_epochs = n_epochs;
+
 
 end
