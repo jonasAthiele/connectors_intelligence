@@ -29,9 +29,9 @@
 
 `get_results.mat`
 
-  - exclude due to high motion and too short raven runs
+  - exclude due to high motion and data length
   - compute centrality measures 
-  - get associations centrality measures and intelligence
+  - get associations between centrality measures and intelligence
   - get info of subjects
   - get main figures and figures for supplement
 	
