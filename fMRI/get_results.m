@@ -179,13 +179,13 @@ rpm36_max = max(rpm36);
 rpm36_mean = mean(rpm36);
 rpm36_sd = std(rpm36);
 
-handednessTable = readtable('Handedness.xls');
+handednessTable = readtable('table_handedness.csv');
 handednessTable = rmmissing(handednessTable);
 % get handedness data
 cleanSubjectIDs = erase(names, 'sub-');  % Now just ["M87100268", "M86000432", ...]
 isMatch = ismember(handednessTable.URSI, cleanSubjectIDs);
 handedness_table_valid = handednessTable(isMatch, :);
-handedness = handedness_table_valid.WhatIsYourDominantHand_;
+handedness = handedness_table_valid.DominantHand;
 num_right = sum(handedness == 1);
 num_left = sum(handedness == 0);
 
@@ -646,6 +646,7 @@ function plot_matrix(vals, p, N, range, cMap, label_axes, label_ticks, option)
 
 
 end
+
 
 
 
