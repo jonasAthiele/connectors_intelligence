@@ -149,7 +149,7 @@ alpha = 0.05;
 
 chanlocs = readlocs('channel_locations_64.ced');
 coords3D = [[chanlocs.X]', [chanlocs.Y]', [chanlocs.Z]']; 
-distMat = squareform(pdist(coords3D));  % Euclidean distances in 3D
+distMat = squareform(pdist(coords3D));  % euclidean distances in 3D
 
 % figure out a neighboring radius
 distMat_noDiag = distMat(~eye(size(distMat)));
@@ -278,7 +278,7 @@ set(gca, 'XTickLabelRotation', 0);  % rotate x tick labels to horizontal
 xlabel('Timescale', 'FontSize',14);
 ylabel('Sample entropy','FontSize',14);
 
-% add vertical grid lines separating timescales using 'line' (behind plot)
+% add vertical grid lines separating timescales
 for x = timescales
     line([x x], ylims, 'Color', [0.8 0.8 0.8], 'LineStyle', '-', 'LineWidth', 0.7, 'HandleVisibility','off');
 end
@@ -362,7 +362,7 @@ end
 hold off;
 box off;
 
-% plot sqrt-transformed Raven MSE
+% plot sqrt-transformed RPM MSE
 ax2 = subplot(1,3,2);
 imagesc(mean_raven_t(:, timescale_ticks));
 %title('RPM MSE (sqrt)');
@@ -437,7 +437,7 @@ set(gca,'fontsize', 16)
 
 
 
-%% Some information to store
+%% some information to store
 
 % total sample:
 no_subjects = length(rpm_all);
@@ -495,5 +495,6 @@ varNames = ["no_subjects","age_min","age_max","age_mean","age_sd",...
     "p_rpm_epochs"];
 
 info_subs = array2table(data,'VariableNames',varNames);
+
 
 writetable(info_subs, "info_subjects.csv")
