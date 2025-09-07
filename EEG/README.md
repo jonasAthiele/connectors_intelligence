@@ -18,21 +18,21 @@
 
 `eeg_analysis.mat`
 
-- preprocessing EEG data
-- get MSE of rest and RPM trials for theta band
+- preprocessing resting-state EEG data
+- get MSE of rest and RPM trials
 - save measures in "brain_measures.mat" files for each subject 
 
 `get_results_eeg.mat`
 
 - get association between MSE measures and RPM sum scores
-- make plots of results
+- make figures of results
 - outputs "info_subjects" & "info_subjects_all"
 
 `compute_partial_spearman.mat`
 - function for computing partial Spearman correlation
 
 `cluster_permutation_test_signed.mat` & `permute_corr_func.mat`
-- functions for cluster based permutation test
+- functions for cluster-based permutation test
 
 ### External functions
 
